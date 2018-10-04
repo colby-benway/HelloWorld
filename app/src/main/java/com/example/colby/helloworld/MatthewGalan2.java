@@ -7,26 +7,26 @@ import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
 
-public class MatthewGalan extends AppCompatActivity {
+public class MatthewGalan2 extends AppCompatActivity {
 
     private Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_matthew_galan);
+        setContentView(R.layout.activity_matthew_galan2);
 
         button = (Button) findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View w) {
-                openActivity2();
+                openActivity1();
             }
         });
     }
 
-    public void openActivity2() {
-        Intent intent = new Intent(this, MatthewGalan2.class);
+    public void openActivity1() {
+        Intent intent = new Intent(this, MatthewGalan.class);
         startActivity(intent);
     }
 }
