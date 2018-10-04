@@ -4,23 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EmilyCrilley">
+    tools:context=".Activity_ejc2140_2">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Page 1!"
+        android:text="Page 2!"
         android:textSize="30sp"
-        android:textStyle="bold|italic"
         tools:layout_editor_absoluteX="142dp"
         tools:layout_editor_absoluteY="263dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="GO TO PAGE 2"
+        android:text="GO TO PAGE 1"
         tools:layout_editor_absoluteX="134dp"
-        tools:layout_editor_absoluteY="342dp" />
+        tools:layout_editor_absoluteY="336dp" />
+
 </android.support.constraint.ConstraintLayout>
