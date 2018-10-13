@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        button = (Button) findViewById(R.id.button2);
+        button = (Button) findViewById(R.id.button4);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openActivity2(){
-        Intent intent = new Intent(this, switchpage2.class);
+        Intent intent = new Intent(this, LoginSelectionActivity.class);
         startActivity(intent);
     }
 }

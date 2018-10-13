@@ -54,6 +54,7 @@
             android:background="@drawable/rounded_button"
             android:text="Enter"
             android:textAllCaps="false"
+            android:textSize="24sp"
             tools:layout_editor_absoluteX="148dp"
             tools:layout_editor_absoluteY="214dp" />
 
