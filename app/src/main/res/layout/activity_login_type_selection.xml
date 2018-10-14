@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginSelectionActivity">
+    tools:context=".LoginTypeSelectionActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,13 +27,13 @@
             android:layout_weight="2" />
 
         <Button
-            android:id="@+id/loginButton"
+            android:id="@+id/individualButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@drawable/rounded_button"
-            android:onClick="login"
-            android:text="Log In"
+            android:onClick="signupIndividual"
+            android:text="I'm an Individual"
             android:textAllCaps="false"
             android:textSize="24sp" />
 
@@ -43,13 +43,13 @@
             android:layout_weight="1" />
 
         <Button
-            android:id="@+id/signupButton"
+            android:id="@+id/organizationButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@drawable/rounded_button"
-            android:onClick="signup"
-            android:text="Sign Up"
+            android:onClick="signupOrganization"
+            android:text="I'm an Organization"
             android:textAllCaps="false"
             android:textSize="24sp" />
 

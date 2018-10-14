@@ -5,16 +5,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class BradleyBoxer2 extends AppCompatActivity {
+public class SignupActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bradley_boxer2);
+        setContentView(R.layout.activity_signup);
     }
 
-    public void onActivityOneButtonClick(View v) {
-        Intent intent = new Intent(this, BradleyBoxer1.class);
+    public void signup(View v){
+        Intent intent = new Intent(this, SignupInterestSelectionActivity.class);
         startActivity(intent);
     }
 }
