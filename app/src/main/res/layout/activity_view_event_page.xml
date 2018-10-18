@@ -32,7 +32,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="117dp"
                 android:background="@android:color/holo_blue_bright"
-                android:text="<Event Picture>" />
+                android:text="Event Picture" />
 
             <LinearLayout
                 android:id="@+id/nameAndSub"
