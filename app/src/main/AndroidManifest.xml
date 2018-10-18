@@ -5,7 +5,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="The Lid"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -19,7 +19,15 @@
         <activity
             android:name=".ScrollingActivity"
             android:label="@string/title_activity_scrolling"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".switchpage1"
+            android:label="@string/title_activity_switchpage1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".switchpage2" />
+        <activity android:name=".messagingPage" />
+        <activity android:name=".allmessages" />
+        <activity android:name=".MessagesScreen"></activity>
     </application>
 
 </manifest>
