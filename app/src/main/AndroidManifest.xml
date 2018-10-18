@@ -34,6 +34,7 @@
         <activity android:name=".switchpage2" />
         <activity android:name=".messagingPage" />
         <activity android:name=".LoginSelectionActivity" />
+        <activity android:name=".LoginTypeSelectionActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".SignupGroupSelectionActivity" />
         <activity android:name=".SignupInterestSelectionActivity" />
@@ -41,21 +42,10 @@
         <activity android:name=".CalendarActivity" />
         <activity android:name=".WelcomeActivity" />
         <activity android:name=".MessagesScreen" />
-        <!--
-             The API key for Google Maps-based APIs is defined as a string resource.
-             (See the file "res/values/google_maps_api.xml").
-             Note that the API key is linked to the encryption key used to sign the APK.
-             You need a different API key for each encryption key, including the release key that is used to
-             sign the APK for publishing.
-             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
-        -->
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDxz-uXc7LdQFz4jbq0iRumLYG0as-GyqA" />
+        <activity android:name=".CreateEventActivity" />
+        <activity android:name=".MapsActivity2" />
 
-        <activity
-            android:name=".MapsActivity2"
-            android:label="@string/title_activity_maps2"></activity>
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyDxz-uXc7LdQFz4jbq0iRumLYG0as-GyqA"/>
     </application>
 
 </manifest>
