@@ -94,7 +94,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         LatLng sydney3 = new LatLng(-33.9, 151.05);
         mMap.addMarker(new MarkerOptions()
                 .position(sydney3)
-                .title("Second Event")
+                .title("Third Event")
                 .snippet("Where: Everywhere\nWhen: Always"));
 
     }
