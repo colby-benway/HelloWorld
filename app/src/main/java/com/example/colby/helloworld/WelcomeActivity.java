@@ -14,7 +14,7 @@ public class WelcomeActivity extends AppCompatActivity {
     }
 
     public void launchMap(View v) {
-        Intent intent = new Intent(this, MapsActivity2.class);
+        Intent intent = new Intent(this, MapsActivity.class);
         startActivity(intent);
     }
 
@@ -23,18 +23,13 @@ public class WelcomeActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void launchDiscover(View v) {
-        //Intent intent = new Intent(this, MapActivity.class);
-        //startActivity(intent);
-    }
-
     public void launchCreateEvent(View v) {
         Intent intent = new Intent(this, CreateEventActivity.class);
         startActivity(intent);
     }
 
     public void launchYourEvents(View v) {
-        //Intent intent = new Intent(this, MapActivity.class);
-        //startActivity(intent);
+        Intent intent = new Intent(this, ViewEventPage.class);
+        startActivity(intent);
     }
 }

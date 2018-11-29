@@ -6,6 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".WelcomeActivity">
 
+    <Button
+        android:id="@+id/welcome_help"
+        android:layout_width="57dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="3"
+        android:background="@drawable/rounded_button"
+        android:text="help"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -20,6 +33,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3" />
 
         <Button
             android:id="@+id/welcome_your_events"
@@ -51,24 +69,6 @@
             android:textSize="24sp"
             tools:layout_editor_absoluteX="147dp"
             tools:layout_editor_absoluteY="133dp" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
-
-        <Button
-            android:id="@+id/welcome_discover"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="3"
-            android:background="@drawable/rounded_button"
-            android:onClick="launchDiscover"
-            android:text="Discover"
-            android:textAllCaps="false"
-            android:textSize="24sp"
-            tools:layout_editor_absoluteX="147dp"
-            tools:layout_editor_absoluteY="214dp" />
 
         <Space
             android:layout_width="match_parent"

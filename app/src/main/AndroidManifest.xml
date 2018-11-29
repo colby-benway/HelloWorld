@@ -43,9 +43,17 @@
         <activity android:name=".WelcomeActivity" />
         <activity android:name=".MessagesScreen" />
         <activity android:name=".CreateEventActivity" />
-        <activity android:name=".MapsActivity2" />
+        <activity android:name=".ViewEventPage" />
 
-        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyDxz-uXc7LdQFz4jbq0iRumLYG0as-GyqA"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCXbYbfRIf95sjgJZMcPektHleUMbn8jqQ" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"></activity>
     </application>
 
 </manifest>
