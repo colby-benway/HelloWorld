@@ -1,8 +1,8 @@
 package com.example.colby.helloworld;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 public class WelcomeActivity extends AppCompatActivity {
@@ -31,5 +31,18 @@ public class WelcomeActivity extends AppCompatActivity {
     public void launchYourEvents(View v) {
         Intent intent = new Intent(this, ViewEventPage.class);
         startActivity(intent);
+    }
+
+    public void callPedro(View v) {
+        // removed pedro's phone number in github release
+
+//        Intent phoneIntent = new Intent(Intent.ACTION_CALL);
+//        phoneIntent.setData(Uri.parse("tel:0"));
+//        if (ActivityCompat.checkSelfPermission(this,
+//                Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+//            Log.e("SUME", "permission denied");
+//            return;
+//        }
+//        startActivity(phoneIntent);
     }
 }

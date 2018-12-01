@@ -47,6 +47,7 @@
             android:layout_marginTop="8dp"
             android:layout_weight="0.1"
             android:background="@drawable/rounded_button"
+            android:onClick="callPedro"
             android:text="help"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
